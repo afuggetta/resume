@@ -110,18 +110,6 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-% For the overview section
-\newcommand{\resumeSubheadingOverview}[0]{
-  \vspace{-2pt}\item
-    \begin{tabularx}{0.97\textwidth}[t]{l >{\raggedleft\arraybackslash}X} % X means the right column takes up any leftover space from the left up to the defined table width - see tabularx docs for more info
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{ #4} \\
-    \end{tabularx}
-    % \begin{tabularx}{0.97\textwidth}[t]{l >{\raggedleft\arraybackslash}X}
-    %   #5 & #6 \\
-    % \end{tabularx}\vspace{-7pt}
-}
-
 % For a work experience item including supervisor info and hours worked
 \newcommand{\resumeSubheadingWork}[6]{
   \vspace{-2pt}\item
