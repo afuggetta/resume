@@ -124,7 +124,6 @@
 
 % For a resume overview / professional summary section
 \newcommand{\resumeOverview}[1]{
-  \section{Resume Overview}
   \vspace{2pt}
   \begin{quote}
     \small #1
