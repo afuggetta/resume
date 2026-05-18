@@ -122,6 +122,16 @@
     % \end{tabularx}\vspace{-7pt}
 }
 
+% For a resume overview / professional summary section
+\newcommand{\resumeOverview}[1]{
+  \section{Resume Overview}
+  \vspace{2pt}
+  \begin{quote}
+    \small #1
+  \end{quote}
+  \vspace{-6pt}
+}
+
 % Optional style for multiple work positions
 \newcommand{\resumeSubSubheading}[2]{
     \item
